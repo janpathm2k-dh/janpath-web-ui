@@ -13,7 +13,7 @@ onMounted(
       console.error('Error fetching job', error)
     } finally {
     }
-    console.log('Fetched products:', products.value); // Debugging: Log fetched products
+    console.log('Fetched products:', products.value) // Debugging: Log fetched products
   })
 </script>
 
@@ -36,8 +36,13 @@ onMounted(
             :alt="product.name"
             class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]"
           >
-          <h3 class="mt-4 text-sm text-gray-700">{{ product.name }}</h3>
-          <p class="mt-1 text-lg font-medium text-gray-900">{{ product.sellRate }}</p>
+          <h3 class="mt-4 text-lg text-gray-700">{{ product.name }}</h3>
+          <span class="flex items-center space-x-2">
+            <p class="text-base font-medium text-gray-900">Our Price: {{ product.sellRate }}</p>
+            <p class="text-base font-medium text-gray-500 line-through">MRP: {{ product.mrp }}</p>
+        </span>
+        <p class="text-base font-medium text-#ec7641 ">SAVE: {{ (product.mrp - product.sellRate).toFixed(2) }}</p>
+
         </a>
 
       </div>
