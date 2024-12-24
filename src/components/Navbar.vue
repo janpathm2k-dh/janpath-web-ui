@@ -1,9 +1,5 @@
 <script setup>
 import logo from '@/assets/logo.png'
-
-// export default {
-//   name: 'TailwindNavbar'
-// }
 </script>
 
 <template>
@@ -14,7 +10,7 @@ import logo from '@/assets/logo.png'
       <div class="flex items-center space-x-3">
         <img :src="logo" alt="Logo" class="h-12" />
       </div>
-    
+
       <!-- Start Section -->
 
       <router-link to="/" class="text-white hover:text-gray-200 font-medium">

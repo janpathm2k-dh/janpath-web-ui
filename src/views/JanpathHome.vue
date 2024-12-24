@@ -1,8 +1,8 @@
-<script>
+<script setup>
+import router from '@/router'
+import HomeCarousel from '../components/HomeCarousel.vue'
 </script>
 
 <template>
-
-  <h1> TEST HEADER </h1>
-
+  <HomeCarousel></HomeCarousel>
 </template>
