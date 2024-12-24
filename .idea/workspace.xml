@@ -7,9 +7,9 @@
     <list default="true" id="b92951dd-4f0e-4ac0-83a3-7b3f20aeb6e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeCarousel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeCarousel.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeCarousel1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeCarousel1.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ProductList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ProductList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar1.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/JanpathHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/JanpathHome.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734862528025</updated>
       <workItem from="1734862529066" duration="29685000" />
-      <workItem from="1735032713095" duration="3117000" />
+      <workItem from="1735032713095" duration="6297000" />
     </task>
     <servers />
   </component>
